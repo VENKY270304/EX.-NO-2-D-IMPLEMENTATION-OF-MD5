@@ -13,10 +13,22 @@
   STEP-4: The output of these functions are combined together as F and performed circular shifting and then given to key round.
   
   STEP-5: Finally, right shift of ‘s’ times are performed and the results are combined together to produce the final output.
-  
 ## PROGRAM:
+```
+#Code to demonstrate the MD5
+
+import hashlib
+
+# function 
+result = hashlib.md5(b'GeeksforGeeks')
+
+# printing the equivalent byte value.
+print("The byte equivalent of hash is : ", end ="")
+print(result.digest())
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/f242fa9c-f688-408f-906f-6cd1483cafc5)
 
 ## RESULT:
   Thus the implementation of MD5 hashing algorithm had been implemented successfully using C.
